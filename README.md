@@ -7,7 +7,7 @@ It helps users generate smart travel plans with flight suggestions, hotel recomm
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 🌐 **Deployed App:**  
 https://agentic-ai-travel-planning-assistant-langchaingit-igpjayjgsfvj.streamlit.app
