@@ -164,7 +164,7 @@ This project is licensed under the MIT License.
 ### Ayush Singh
 
 - GitHub: https://github.com/ayu-sh87
-- LinkedIn: https://www.linkedin.com/ayu108
+- LinkedIn: https://www.linkedin.com/in/ayu108
 
 ---
 
