@@ -303,8 +303,8 @@ with left:
     </div>
     """, unsafe_allow_html=True)
 
-    source      = st.text_input("Departure city",   placeholder="e.g. Delhi", key="source")
-    destination = st.text_input("Destination city", placeholder="e.g. Goa",   key="destination")
+    source      = st.text_input("Departure city",   placeholder="e.g. Goa", key="source")
+    destination = st.text_input("Destination city", placeholder="e.g. Jaipur",   key="destination")
 
     st.markdown("""
     <div style="display:flex;align-items:center;gap:8px;margin:2px 0 10px;">
@@ -332,7 +332,7 @@ with left:
 
     st.markdown("<hr>", unsafe_allow_html=True)
     st.markdown(_label("Popular routes"), unsafe_allow_html=True)
-    for frm, to in [("Delhi","Goa"),("Hyderabad","Goa"),("Bangalore","Goa"),("Delhi","Kolkata")]:
+    for frm, to in [("Jaipur","Delhi"),("Chennai","Mumbai"),("Bangalore","Goa"),("Delhi","Kolkata")]:
         st.markdown(
             f'<div style="padding:9px 13px;background:rgba(255,255,255,0.025);'
             f'border:0.5px solid rgba(255,255,255,0.075);border-radius:9px;'
@@ -433,7 +433,7 @@ with right:
                 f'<p style="font-size:10px;letter-spacing:1.5px;text-transform:uppercase;'
                 f'color:rgba(240,237,232,0.25);margin-bottom:9px;">Available routes</p>'
                 f'<p style="font-size:13px;color:rgba(240,237,232,0.45);line-height:1.8;">'
-                f'Hyderabad → Goa &nbsp;·&nbsp; Bangalore → Goa &nbsp;·&nbsp; Delhi → Kolkata</p></div>',
+                f'Goa → Banglore &nbsp;·&nbsp; Bangalore → Delhi &nbsp;·&nbsp; Delhi → Kolkata</p></div>',
                 unsafe_allow_html=True,
             )
 
